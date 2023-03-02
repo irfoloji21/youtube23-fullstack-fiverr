@@ -1,0 +1,22 @@
+.flagDropDown{
+    &::before {
+        content: "";
+        position: absolute;
+        left: 51%;
+        top: 4px;
+        height: 80%;
+        width: 5px;
+        border-radius: 50px;
+        margin-left: -10px;
+        background: rgb(32,213,95);
+        background: linear-gradient(90deg, rgba(32,213,95,1) 0%, rgba(31,131,204,1) 100%);
+      }
+
+      .Dropdown-control{
+        padding-right: 35px;
+        .dropdownShow{
+          display: flex;
+          align-items: center;
+        }
+      }
+}

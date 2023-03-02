@@ -1,0 +1,25 @@
+.page-wrapper {
+    position: relative;
+    min-height: 50vh;
+  }
+  
+  .successful_pay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #8bc34a;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+    text-align: center;
+    // z-index: 9999;
+  
+    p {
+        white-space: nowrap;
+      margin: 0;
+    }
+  }
+  
