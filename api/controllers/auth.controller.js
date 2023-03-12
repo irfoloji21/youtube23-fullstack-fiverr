@@ -15,6 +15,7 @@ export const register = async (req, res, next) => {
     res.status(201).send("User has been created.");
   } catch (err) {
     next(err);
+    console.log(err);
   }
 };
 export const login = async (req, res, next) => {
