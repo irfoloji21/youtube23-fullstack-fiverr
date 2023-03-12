@@ -1,0 +1,81 @@
+.explore {
+
+    &-container {
+        flex: 1 1 0;
+
+      h1{
+        font-size: 2.1rem;
+        color: #555;
+      }
+
+      .items {
+        list-style: none;
+        list-style-image: none;
+
+        .item {
+            padding: 0 10px 32px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            text-align: center;
+            border: 0;
+            margin: 0;
+            outline: 0;
+            width: 20%;
+
+            @media screen and (max-width: 1160px) {
+                width: 25%;
+            }
+
+            @media screen and (max-width: 992px) {
+                width: 33.3333333333%;
+            }
+
+            @media screen and (max-width: 768px) {
+                width: 50%;
+            }
+
+            @media screen and (max-width: 390px) {
+                width: 100%;
+            }
+
+
+            a{
+                color: #222325;
+                text-align: center;
+                position: relative;
+                display: inline-block;
+                text-decoration: none;
+                transition: color .2s;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 45px;
+                    right: 50%;
+                    -webkit-transform: translateX(50%);
+                    transform: translateX(50%);
+                    padding: 0 0 8px;
+                    width: 48px;
+                    border-bottom: 2px solid #c5c6c9;
+                    transition: border-color .2s ease-in-out, padding .2s ease-in-out;
+                }
+
+                &:hover{
+                    &::after{
+                        border-color: #1dbf73;
+                        width: 80px;
+                        transition: border-color .2s ease-in-out, padding .2s ease-in-out;
+                    }
+                }
+                
+                img {
+                    display: block;
+                    width: 48px;
+                    height: 48px;
+                    margin: 0 auto 15px;                
+                  }
+            }
+    
+        }
+      }
+    }
+  }

@@ -6,6 +6,28 @@
   .container {
     width: 1400px;
     position: relative;
+    .carousel-initialized {
+      .carousel-track {
+        // display: flex;
+        align-items: center;
+        // justify-content: center;
+        .carousel-slide {
+          width: 20%;
+          @media screen and (max-width: 1400px) {
+            width: 25%;
+          }
+          @media screen and (max-width: 992px) {
+            width: 33.3333333333%;
+          }
+          @media screen and (max-width: 768px) {
+            width: 50%;
+          }
+          @media screen and (max-width: 390px) {
+            width: 100%;
+          }
+        }
+      }
+    }
   }
 
   .carousel-initialized {
@@ -26,5 +48,11 @@
 
   .carousel-prev {
     left: -25px;
+    @media screen and (max-width: 1400px) {
+      left: 0px;
+    }
   }
+
+  .slick-slide { transform: translate(100%, 0); }
+  
 }

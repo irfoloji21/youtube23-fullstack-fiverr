@@ -1,0 +1,139 @@
+{
+    "Navbar": {
+        "nav": {
+            "nav1": "Fiverr Business",
+            "nav2": "Explore",
+            "nav3": "Become a Seller"
+        },
+        "gig": {
+            "addNewGig": "Add New Gig"
+        },
+        "link": {
+            "link1": "Orders",
+            "link2": "Messages",
+            "link3": "Logout"
+        },
+        "button": {
+            "button1": "Sign In",
+            "button2": "Join"
+        },
+        "listItem": {
+            "listItem1": "Graphics & Design",
+            "listItem2": "Digital Marketing",
+            "listItem3": "Writing & Translation",
+            "listItem4": "Video & Animation",
+            "listItem5": "Music & Audio",
+            "listItem6": "Programming & Tech",
+            "listItem7": "Business",
+            "listItem8": "Fun & Lifestyle",
+            "listItem9": "Trending"
+
+        },
+        "sidebar": {
+            "sidebar1": "Sign in",
+            "sidebar2": "Browse Categories",
+            "sidebar3": "Explore",
+            "sidebar4": "Fiverr Business",
+            "sidebar5": "General",
+            "sidebar6": "Sign in",
+            "sidebar7": "Join Fiverr"
+        },
+        "hero": {
+            "h1first": "Find the perfect",
+            "span": "freelancer",
+            "h1second": "services for your business",
+            "placeholder": "Try; building mobile app;",
+            "populer": {
+                "title": "Popular:",
+                "populer1": "Logo Design",
+                "populer2": "Web Design",
+                "populer3": "Wordpress",
+                "populer4": "Video Editing",
+                "populer5": "SEO"
+            }
+            
+        }
+    },
+
+    "Featured": {
+        "header": "A whole world of freelance talent at your fingertips",
+        "span": {
+            "span1": "The best for every budget",
+            "span2": "Quality work done quickly",
+            "span3": "Protected payments, every time",
+            "span4": "24/7 support"
+        },
+        "p": {
+            "p1": "Find high-quality services at every price point. No hourly rates, just project-based pricing.",
+            "p2": "Find the right freelancer to begin working on your project within minutes.",
+            "p3": "Always know what you'll pay upfront. Your payment isn't released until you approve the work.",
+            "p4": "Questions? Our round-the-clock support team is available to help anytime, anywhere."
+        }
+        
+    },
+
+    "Explore": {
+        "header": "Explore the marketplace",
+        "items": {
+            "item1": "Graphics & Design",
+            "item2": "Digital Marketing",
+            "item3": "Writing & Translation",
+            "item4": "Video & Animation",
+            "item5": "Music & Audio",
+            "item6": "Programming & Tech",
+            "item7": "Business",
+            "item8": "Lifestyle",
+            "item9": "Data",
+            "item10": "Photography"
+        }
+    },
+
+    "Bussiness": {
+        "new": "New",
+        "header": "A business solution designed for",
+        "italic": "teams",
+        "desc": "Upgrade to a curated experience packed with tools and benefits, dedicated to businesses",
+        "item1": "Connect to freelancers with proven business experience",
+        "item2": "Get matched with the perfect talent by a customer success manager",
+        "item3": "Manage teamwork and boost productivity with one powerful workspace"
+    },
+
+    "Footer": {
+        "headers": {
+            "header1": "Categories",
+            "header2": "About",
+            "header3": "Support",
+            "header4": "Community",
+            "header5": "More From Fiverr"
+        },
+        "listItem": {
+            "listItem1": "Graphics & Design",
+            "listItem2": "Digital Marketing",
+            "listItem3": "Writing & Translation",
+            "listItem4": "Video & Animation",
+            "listItem5": "Music & Audio",
+            "listItem6": "Programming & Tech",
+            "listItem7": "Careers",
+            "listItem8": "Press & News",
+            "listItem9": "Partnerships",
+            "listItem10": "Privacy Policy",
+            "listItem11": "Help & Support",
+            "listItem12": "Trust & Safety",
+            "listItem13": "Selling on Fiverr",
+            "listItem14": "Buying on Fiverr",
+            "listItem15": "Events",
+            "listItem16": "Blog",
+            "listItem17": "Forum",
+            "listItem18": "Community Standards",
+            "listItem19": "Podcast",
+            "listItem20": "Fiverr Business",
+            "listItem21": "Fiverr Pro",
+            "listItem22": "Fiverr Studio",
+            "listItem23": "Fiverr Logo Maker",
+            "listItem24": "Fiverr Guides",
+            "listItem25": "Get Inspired",
+            "listItem26": "Fiverr Select"
+        },
+        "footer24": "© Fiverr International Ltd. 2022"
+    }
+}
