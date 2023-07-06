@@ -7,40 +7,19 @@ const countryOptions = [
   {
     value: "us",
     label: (
-      <div className='dropdownShow'>
-        <img
-          src="https://flagcdn.com/h20/us.png"
-          alt="USA Flag"
-          style={{ marginRight: "10px" }}
-        />
-        USA
-      </div>
+      <div className='dropdownShow'>USA</div>
     ),
   },
   {
     value: "za",
     label: (
-      <div className='dropdownShow'>
-        <img
-          src="https://flagcdn.com/h20/za.png"
-          alt="Turkey Flag"
-          style={{ marginRight: "10px" }}
-        />
-        South Africa
-      </div>
+      <div className='dropdownShow'>South Africa</div>
     ),
   },
   {
     value: "gb",
     label: (
-      <div className='dropdownShow'>
-        <img
-          src="https://flagcdn.com/h20/gb.png"
-          alt="UK Flag"
-          style={{ marginRight: "10px" }}
-        />
-        UK
-      </div>
+      <div className='dropdownShow'>UK</div>
     ),
   },
 ];

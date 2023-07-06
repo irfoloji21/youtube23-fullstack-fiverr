@@ -1,13 +1,31 @@
 import React from "react";
 import "./Home.scss";
+import Slide from "../../components/slide/Slide";
+import { cards, projects } from "../../data";
+import CatCard from "../../components/catCard/CatCard";
+import ProjectCard from "../../components/projectCard/ProjectCard";
 import Featured from "../../components/featured/Featured";
-import Assemble from "../../components/assemble/Assemble";
+import { Explore } from "../../components/explore/Explore";
+import Bussiness from "../../components/bussiness/Bussiness";
 
 function Home() {
   return (
-    <div className='home'>
-    <Featured />
-    <div className="explore">
+    <>
+      <Slide slidesToShow={5} arrowsScroll={5}>
+        {cards.map((card) => (
+          <CatCard key={card.id} card={card} />
+        ))}
+      </Slide>
+      <Featured/>
+      <Explore/>
+      <Bussiness/>
+      {/* <Slide slidesToShow={4} arrowsScroll={4}>
+        {projects.map((project) => (
+          <ProjectCard key={project.id} item={project} />
+        ))}
+      </Slide> */}
+    {/* <Featured /> */}
+    {/* <div className="explore">
       <div className="container">
         <h1>Find a freelancer</h1>
         <div className="items">
@@ -130,8 +148,8 @@ function Home() {
       </div>
     </div>
     <Assemble />
-    </div>
-  </div>
+    </div> */}
+  </>
   );
 }
 

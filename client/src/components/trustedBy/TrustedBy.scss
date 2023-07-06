@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
 
-  .container {
+  &-container {
     max-width: 760px;
     display: flex;
     align-items: center;
@@ -12,9 +12,31 @@
     color: rgb(200, 200, 200);
     font-weight: 500;
 
-    img{
-      height: 50px;
-      object-fit: contain;
+    ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      gap: 20px;
+      list-style: none;
+      margin: 0;
+      li{
+        img{
+          height: 50px;
+          object-fit: contain;
+          @media screen and (max-width: 576px) {
+            height: 30px;
+          }
+        }
+      }
+    }
+
+
+  }
+  
+  &-span{
+    @media screen and (max-width: 1160px) {
+      display: none;
     }
   }
 }
